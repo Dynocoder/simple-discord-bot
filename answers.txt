@@ -1,0 +1,20 @@
+Ruby on Rails is a server-side web application framework written in Ruby, designed to make web development easier by providing default structures for databases, web services, and pages.
+MVC stands for Model-View-Controller, a design pattern that separates an application into three components to promote organized code. Rails follows this pattern closely.
+ActiveRecord is the Rails ORM (Object-Relational Mapping) layer that facilitates the creation and management of database records as Ruby objects.
+You can create a new Rails project by running the command `rails new project_name` in your terminal.
+A migration is a Ruby script that allows you to modify the database schema over time in a consistent and easy way.
+Migrations can be run using the command `rails db:migrate` to apply the changes defined in your migration files.
+Gems are Ruby libraries that can be used in Rails to add functionality or simplify tasks like authentication, testing, and more.
+To add a Gem, you include it in the `Gemfile` and run `bundle install` to install the Gem and its dependencies.
+REST (Representational State Transfer) is a design pattern Rails uses to define how applications communicate with HTTP by mapping CRUD operations to routes.
+The controller in Rails handles the web requests, processes data from models, and renders the appropriate views for the user.
+Routes are defined in the `config/routes.rb` file, mapping URLs to controller actions.
+A partial is a reusable view template that can be embedded in other views to avoid repetition of HTML code.
+The `render` method is used in controllers to display views or partials, or redirect to other actions.
+You can start the Rails server by running the command `rails server` or `rails s` in your terminal.
+Helpers are modules used to extract complex logic or reusable code from views, making them cleaner and more maintainable.
+`render` displays a view without changing the URL, while `redirect_to` changes the URL and triggers a new request.
+You can generate a model using the command `rails generate model ModelName` followed by attributes.
+The `has_many` association is used in models to declare a one-to-many relationship between two database tables.
+The `routes.rb` file defines the mapping between URLs and the corresponding controller actions in your application.
+Strong parameters is a feature that helps to prevent mass assignment vulnerabilities by requiring you to explicitly permit or deny attributes in a controller.

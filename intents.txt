@@ -1,0 +1,20 @@
+What is Ruby on Rails?
+What is MVC in Rails?
+What is ActiveRecord in Rails?
+How do you create a new Rails project?
+What is a migration in Rails?
+How do you run migrations in Rails?
+What are Gems in Rails?
+How do you add a Gem to your Rails project?
+What is REST in Rails?
+What is the purpose of a controller in Rails?
+How do you define routes in Rails?
+What is a partial in Rails?
+What is the `render` method in Rails?
+How do you start the Rails server?
+What is a helper in Rails?
+What is the difference between `render` and `redirect_to` in Rails?
+How do you generate a model in Rails?
+What is the `has_many` association in Rails?
+What is the purpose of the `routes.rb` file?
+What is `strong_parameters` in Rails?
