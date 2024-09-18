@@ -84,10 +84,7 @@ class BotDataManager():
         data_list = []
         with open(file_path, 'r',) as reader:
             try:
-                if strong_clean:
-                    data_list = self.__clean_data(reader.readlines(), True)
-                else:
-                    data_list = self.__clean_data(reader.readlines())
+                data_list = self.__clean_data(reader.readlines(), strong_clean)
             finally:
                 reader.close()
         return data_list
